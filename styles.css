@@ -1,0 +1,100 @@
+body
+{
+	color: rgba(33,33,33 ,1);
+}
+
+.welcome-title {
+	font-size: 60pt;
+	font-family: 'Abril Fatface', cursive;
+	line-height: 0.9em;
+}
+
+.text-box {
+	text-align: justify;
+}
+
+.line {
+	width: 400px;
+	height: 2px;
+	background-color: rgba(33,33,33 ,1);
+}
+
+.button {
+	border: 0px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 40px;
+	padding-left: 40px; 
+	border-radius: 40px;
+	font-weight: bold;
+	background-image: linear-gradient(-225deg, #AC32E4 0%, #7918F2 48%, #4801FF 100%);
+	color: white;
+}
+
+.game-screenshot {
+	width: 100%;
+	border-radius: 10px;
+}
+
+.game-screenshot-small {
+	width: 100%;
+	min-width: 200px;
+	border-radius: 10px;
+}
+
+.game-screenshot-protrait-small {
+	width: 100%;
+	min-width: 150px;
+	border-radius: 10px;
+	margin-top: 30px;
+}
+
+.mind-width-500  {
+	min-width: 500px;
+}
+
+.margin-top-30 {
+	margin-top: 30px;
+}
+
+.fade-in {
+	position: relative;
+	-webkit-animation: fade-in-animation 0.5s; /* Safari 4+ */
+	-moz-animation:    fade-in-animation 0.5s ; /* Fx 5+ */
+	-o-animation:      fade-in-animation 0.5s ; /* Opera 12+ */
+	animation:         fade-in-animation 0.5s ; /* IE 10+, Fx 29+ */
+}
+.social-media{
+	margin-right: 15px;
+	float: left;
+}
+
+.game-logo {
+	width: 200px;
+	height: 200px;
+	margin: 20px;
+}
+
+.company-logo
+{
+	position: fixed;
+	left: 30px;
+	top: 30px;
+	z-index: 30;
+}
+@-webkit-keyframes fade-in-animation {
+  0%   { opacity: 0; top: 50px;}
+  100% { opacity: 1; top: 0px; }
+}
+@-moz-keyframes fade-in-animation {
+  0%   { opacity: 0; top: 50px;}
+  100% { opacity: 1; top: 0px; }
+}
+@-o-keyframes fade-in-animation {
+  0%   { opacity: 0; top: 50px;}
+  100% { opacity: 1; top: 0px; }
+}
+@keyframes fade-in-animation {
+  0%   { opacity: 0; top: 50px;}
+  100% { opacity: 1; top: 0px; }
+}
